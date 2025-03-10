@@ -47,9 +47,11 @@ function App() {
         <p className='fs-1 text-center'>Controlled Counter</p>
         <p className='text-center fs-2 text danger m-5'>{num}</p>
         <p>{stop}</p>
-        <button onClick={Increment} className='btn mx-2 btn-success w-25 fw-bold'> Increment +</button>
-        <button onClick={Decrement} className='btn mx-2 btn-danger w-25 fw-bold'> Decrement -</button>
-       
+
+        <div>
+        <button onClick={Increment} className='btn mx-2 btn-success  fw-bold'> Increment +</button>
+        <button onClick={Decrement} className='btn mx-2 btn-danger fw-bold'> Decrement -</button>
+        </div>
     </>
   )
 }
